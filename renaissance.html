@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>renaissance</title>
+</head>
+
+
+<body>
+    <div class="div1">
+        <section>
+            <header>
+                <h3>Renaissance</h3>
+                <div>
+                    <div class="menubg">
+                        <a id='navb' href="#1"><img src="img/menuburger.png" alt="menuburger"></a>
+                        <nav id="nav-mobile" class="nav-mobile hide">
+
+                            <a class="home" href="a">Home</a>
+
+                            <a href="a">Timeline</a>
+                            <a href="a"> History</a>
+                            <a href="a">Artists</a>
+                            <a href="a"> Artworks</a>
+                            <a href="a">Facts</a>
+                            <div class="ligne1"></div>
+
+
+                        </nav>
+
+                    </div>
+                    <nav class="nav1">
+
+                        <a class="home" href="a">Home</a>
+
+                        <a href="a">Timeline</a>
+                        <a href="a"> History</a>
+                        <a href="a">Artists</a>
+                        <a href="a"> Artworks</a>
+                        <a href="a">Facts</a>
+                        <div class="ligne1"></div>
+
+
+                    </nav>
+
+                    <div class="bordure"></div>
+                </div>
+
+            </header>
+        </section>
+
+        <div class="divimg">
+            <section>
+                <article>
+                    <div class="border2">
+                        <h1>An Artistic </br>Exploration</h1>
+                        <p class="text1">The Renaissance era was a period of rebirth </br>
+                            in almost all the cultural and societal </br> faculties and institutions</p>
+                    </div>
+                    <div class="strong1"> Explore more </div>
+                    <div class="photo1"><img src="img/img1.png" alt=""></div>
+
+                </article>
+                <div class="leonardo">Leonardo Da </div>
+
+                <figure>
+
+
+                </figure>
+            </section>
+            <div class="div3">
+                <div class="MONA">MONALISA</div>
+                <figure> <img src="img/imgtete2.png" /></figure>
+                <figcaption>
+                    <h2>By Leonardo Da Vinci </h2>
+                    <p> <strong> Ginevra de’ Benci:</strong> It is one of Leonardo’s </br> earliest works, finished when he was in his </br> early 20s, and shows some of the </br> unconventional methods he would use throughout</br> his career.</p>
+                </figcaption>
+                <p class="un">01</p>
+                <p class="neuf">09</p>
+
+            </div>
+        </div>
+        <div class="chrono">
+            <div class="dotted">
+                <ul>
+                    <li class="active">Leonardo Da Vinci (1452–1519)
+                    </li>
+                    <li>Michelangelo (1475–1570)</li>
+                    <li>Giorgione (1477—1510)</li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <footer class="frame5">
+
+
+        </footer>
+
+    </div>
+    <script>
+        let navb = document.getElementById('navb');
+        navb.addEventListener('click', function() {
+            let navmobile = document.getElementById('nav-mobile');
+            if (navmobile.classList.contains('hide')) {
+                navmobile.classList.add('show');
+                navmobile.classList.remove('hide');
+            } else {
+                navmobile.classList.add('hide');
+                navmobile.classList.remove('show');
+            }
+
+        })
+
+        document.addEventListener('click', function(event) {
+            let navmobile = document.getElementById('nav-mobile');
+
+            let menubg = document.getElementsByClassName('menubg')[0];
+
+            let clickeSurBurg = menubg.contains(event.target) || menubg == event.target;
+            if (!clickeSurBurg) {
+                navmobile.classList.add('hide');
+                navmobile.classList.remove('show');
+            }
+        })
+    </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</script>
+
+</html>

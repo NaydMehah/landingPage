@@ -1,0 +1,378 @@
+body {
+    position: relative;
+    background: #1C1C1C;
+    border-radius: 23px;
+}
+
+.div1 {
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(14, 14, 14, 0) 0%, #0E0E0E 100%);
+    box-shadow: 0px 6px 40px 19px rgba(26, 22, 21, 0.4);
+    width: 100%;
+}
+
+header h3 {
+    font-family: Indira K;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+header {
+    border-bottom: 0.3px solid #FFFFFF;
+    flex-grow: 1;
+}
+
+.flex1 {
+    display: flex;
+}
+
+.section1 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 0.3px solid #FFFFFF;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.nav1 a {
+    font-family: Inter;
+    position: static;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    order: 5;
+    flex-grow: 0;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.divimg {
+    position: relative;
+    display: inline-flex;
+    display: flex;
+}
+
+.flex2 {
+    flex-grow: 1;
+}
+
+h1 {
+    position: relative;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 106px;
+    /* or 106% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.text1 {
+    /* The Renaissance era was a period of rebirth in almost all the cultural and societal faculties and institutions */
+    position: relative;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    color: #FFFFFF;
+}
+
+.div3 {
+    display: flex;
+}
+
+.div3 h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.div3 p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.mona {
+    height: 1048px;
+    position: relative;
+    bottom: 609px;
+    left: 276px;
+}
+
+figcaption {
+    position: relative;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    color: #FFFFFF;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+}
+
+.divimg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.strong1 {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px solid #DADADA;
+    transform: rotate(-5.98deg);
+    border-radius: 50%;
+    width: 102px;
+    height: 31px;
+    line-height: 28px;
+    padding: 6px;
+}
+
+.home {
+    border-bottom: 1px solid #D29F1B;
+    border-left: 1px solid #D29F1B;
+    border-right: 1px solid #D29F1B;
+}
+
+.leonardo {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 96px;
+    color: #FFFFFF;
+    opacity: 0.2;
+    padding-top: 50px;
+}
+
+.un {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.neuf {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.4;
+    font-size: 10px;
+}
+
+.un .neuf {
+    font-variant-numeric: normal;
+}
+
+.MONA {
+    font-family: Indira K;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height */
+    color: #FFFFFF;
+    opacity: 0.1;
+}
+
+.tete {
+    height: 330px;
+    position: relative;
+    bottom: 73px;
+}
+
+.divimg section {
+    background-image: url(../img/img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    width: 100%;
+    padding-bottom: 0%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo1 {
+    display: none;
+}
+
+.chrono li {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.menubg {
+    display: none;
+}
+
+.dotted {
+    position: relative;
+    padding-left: 30px;
+}
+
+.dotted ul {
+    padding-left: 13px;
+    position: relative;
+}
+
+.dotted::before {
+    background: url("../img/l.svg");
+    content: '';
+    position: absolute;
+    padding-left: 2px;
+    height: 175px;
+}
+
+.dotted li.active::before {
+    content: '';
+    position: absolute;
+    padding-left: 2px;
+    height: 50px;
+    left: 0px;
+    z-index: 10;
+    background-color: #da0000;
+}
+
+.dotted li.active::marker {
+    color: #da0000;
+}
+
+.dotted li.active::marker::before {
+    color: #da0000;
+}
+
+@media screen and (max-width: 992px) {
+    .divimg {
+        flex-wrap: wrap;
+    }
+    .divimg section {
+        background: none;
+    }
+    .nav1 {
+        display: none;
+    }
+    h1 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .photo1 {
+        display: flex;
+        justify-content: center;
+    }
+    .menubg {
+        display: flex;
+    }
+    h3 {
+        padding-left: 23%;
+    }
+    .strong1 {
+        display: none;
+    }
+    .div3 p {
+        font-size: 3vw;
+        text-align: center;
+    }
+    .div3 {
+        margin: 10%;
+    }
+    h1 {
+        padding-top: 30%;
+        text-align: center;
+    }
+    .MONA {
+        font-size: 48PX;
+        text-align: center;
+    }
+    .leonardo {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text1 {
+        text-align: center;
+    }
+    .chrono {
+        justify-content: center;
+    }
+    .div3 h2 {
+        text-align: center;
+    }
+    .nav-mobile {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 85px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-image: url(../img/nav.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+        align-items: center;
+        background-position-y: 88%;
+        z-index: 10;
+    }
+    .nav-mobile a {
+        width: 25%;
+        text-align: center;
+        color: white;
+        background-color: #00000061;
+        padding: 12px;
+        margin-right: 5px;
+        font-family: Playfair Display;
+        text-decoration: none;
+    }
+    .nav-mobile a:hover {
+        text-decoration: underline;
+    }
+    .nav-mobile.hide {
+        display: none;
+    }
+    .nav-mobile.show {
+        display: flex;
+    }
+}
